@@ -19,17 +19,25 @@ Copilot **must not** replace human judgement on educational correctness.
 
 ---
 
-## 2. What to Review (Required)
+## 2. Language
+
+All review comments **must be written in Japanese**.
+
+- Do not use English in review comments.
+- Use natural Japanese suitable for educational materials.
+- Technical terms may remain in English only when commonly used in Japanese exams.
+
+## 3. What to Review (Required)
 
 Copilot should actively check and comment on the following:
 
-### 2.1 Language & Typographical Errors
+### 3.1 Language & Typographical Errors
 
 - Typographical errors and conversion mistakes
 - Inconsistent punctuation or spacing
 - Broken sentences or obvious grammatical issues
 
-### 2.2 Terminology & Notation Consistency
+### 3.2 Terminology & Notation Consistency
 
 - Inconsistent use of technical terms
 - Notation inconsistencies (symbols, variables, option labels)
@@ -38,13 +46,13 @@ Copilot should actively check and comment on the following:
   - `common/style.md`
   - `common/units.md`
 
-### 2.3 References & Structure
+### 3.3 References & Structure
 
 - Missing or incorrect references to figures, tables, equations, or options
 - Inconsistent numbering (e.g., 図・表・問・選択肢)
 - Headings hierarchy issues in Markdown
 
-### 2.4 Markdown / LaTeX Syntax
+### 3.4 Markdown / LaTeX Syntax
 
 - Broken Markdown syntax (lists, headings, emphasis)
 - Unbalanced LaTeX math delimiters (`$`, `$$`)
@@ -52,7 +60,7 @@ Copilot should actively check and comment on the following:
 
 ---
 
-## 3. What NOT to Review (Forbidden)
+## 4. What NOT to Review (Forbidden)
 
 Copilot **must not**:
 
@@ -69,15 +77,15 @@ If correctness is uncertain, Copilot may:
 
 ---
 
-## 4. How to Comment
+## 5. How to Comment
 
-### 4.1 Comment Style
+### 5.1 Comment Style
 
 - Be concise and specific
 - Reference the exact line or section
 - Prefer suggestions over rewrites
 
-### 4.2 Example Comments
+### 5.2 Example Comments
 
 ✅ Good:
 
@@ -96,7 +104,7 @@ If correctness is uncertain, Copilot may:
 
 ---
 
-## 5. Educational Material Conventions
+## 6. Educational Material Conventions
 
 - Option numbers use circled numerals: ⓪ ① ② ③ ...
 - Answers are explicitly marked with **正** or **誤**
@@ -106,7 +114,7 @@ Copilot should respect these conventions and flag deviations.
 
 ---
 
-## 6. Final Reminder
+## 7. Final Reminder
 
 Copilot Reviews is a **supporting tool**, not an authority.
 
